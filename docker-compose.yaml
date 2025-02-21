@@ -15,6 +15,7 @@ services:
 
   # Node.js Backend Service
   backend:
+   image: saigopi1234/snake_backend:latest
     build: ./backend
     container_name: snake-game-backend
     depends_on:
